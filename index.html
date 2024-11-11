@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBA 316</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+   <nav id="navBar">
+    <ul>
+        <li><a href="#">Homepage</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Christmas Trees</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Prices</a></li>
+    </ul>
+   </nav>
+   <h1>Christmas Tree Decorating</h1>
+   <div id="box">
+    <form id="myForm">
+        <label> Name:
+            <input name="name" onclick="validateName" id="text-input" type="text" minlength="4" required />
+        </label>
+        <br />
+        <label> Choose a Date:
+            <input name="date" onclick="validateDate" id="date" type="date" required/>
+        </label>
+        <br />
+        <label> Email Address:
+            <input name="email" onclick="validateEmail" id="email" type="email" required />
+        </label>
+        <br /> <br />
+        
+        <button id="myButton">Book Here!</button>
+    </form>
+   </div>
+   
+  
+    
+
+
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
